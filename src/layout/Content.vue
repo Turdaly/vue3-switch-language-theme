@@ -1,6 +1,6 @@
 <template>
   <section v-if(contents) v-for="content in contents" :key="content.id"
-  class=" grid gap-4 place-items-center mr-96 ml-96 mt-6"
+  class=" grid gap-4 place-items-center mr-96 ml-96 mt-6 pb-6"
   :class="[theme ? 'bg-gray-800' : '']"
   >
     <h1 class="text-2xl font-bold mt-4"

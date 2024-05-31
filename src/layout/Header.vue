@@ -1,7 +1,7 @@
 <template>
   <section>
     <header>
-      <nav :class="[theme ? 'bg-gray-800': 'bg-gray-400']">
+      <nav :class="[theme ? 'bg-gray-800': 'bg-gray-500']">
         <div class="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
           <div class="relative flex items-center justify-between h-16">
             <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
@@ -22,7 +22,10 @@
               <div class="hidden sm:block sm:ml-6">
                 <div class="flex space-x-4">
                   <div class="relative">
-                    <button @click="toggleSelect" class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Change Language</button>
+                    <button @click="toggleSelect" class="px-3 py-2 rounded-md text-sm font-medium transition-colors"
+                    :class="[theme ? 'text-gray-300 hover:bg-gray-700 hover:text-white' : 'hover:bg-gray-400']">
+                      Change Language
+                    </button>
                     <div v-if="selectOpen" class="absolute mt-2 w-48 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5">
                       <div class="py-1" role="menu" aria-orientation="vertical" aria-labelledby="options-menu" v-for="language in languages" :key="language.id">
                         <a href="#" @click="changeLanguage(language.value)" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100" role="menuitem">{{ language.label }}</a>

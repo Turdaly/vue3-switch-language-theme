@@ -1,4 +1,5 @@
 <script setup lang="ts">
+// @ts-ignore
 import Header from '@/layout/Header.vue';
 import Content from '@/layout/Content.vue';
 </script>
