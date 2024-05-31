@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "label": "English",
+    "value": "eng"
+  },
+  {
+    "id": 2,
+    "label": "Russian",
+    "value": "ru"
+  },
+  {
+    "id": 3,
+    "label": "Kazakh",
+    "value": "kz"
+  }
+]

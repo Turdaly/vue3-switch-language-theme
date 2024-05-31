@@ -1,0 +1,20 @@
+{
+  "header": {
+    "language": "Change Language",
+    "theme": "Theme"
+  },
+  "body": {
+    "content": [
+      {
+        "id": 1,
+        "title": "Section 1",
+        "text": "My name is Elnur, I am a junior frontend developer. I have experience working with HTML, CSS, JavaScript, TypeScript, Vuex, Pinia, Vue 2 and Vue 3. I am currently studying TypeScript and Vue 3 in depth, aiming to improve my skills and knowledge in this area.I am actively involved in development and participate in various projects that you can find on my GitHub: https://github.com/Turdaly /. I believe that practical experience is the best way to improve, so I try to take on interesting and challenging tasks."
+      },
+      {
+        "id": 2,
+        "title": "Section 2",
+        "text": "My projects demonstrate my ability to create user interfaces, work with application states, and provide optimal performance. I strive for clean and understandable code, following modern standards and best development practices. In the future, I plan to delve into other modern technologies and frameworks to expand my knowledge and capabilities. In my free time, I read technical articles, participate in online courses and strive to keep up to date with the latest trends in the world of web development."
+      }
+    ]
+  }
+}
